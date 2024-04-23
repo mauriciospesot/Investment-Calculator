@@ -15,7 +15,6 @@ function App() {
 
   function handleChange(event) {
     setUserInput((prevUserInput) => {
-      console.log(prevUserInput);
       return {
         ...prevUserInput,
         [event.target.name]: +event.target.value,
