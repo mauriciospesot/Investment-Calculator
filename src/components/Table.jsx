@@ -7,7 +7,6 @@ export default function Table({ input }) {
     resultData[0].interest -
     resultData[0].annualInvestment;
 
-  console.log(resultData);
   return (
     <table id="result">
       <thead>
